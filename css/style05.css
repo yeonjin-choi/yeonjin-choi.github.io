@@ -1,0 +1,231 @@
+.nav_bg{
+    position: absolute;
+}
+
+.shop{
+    position: absolute;
+    width: 100vw;
+}
+
+.main_logo{
+    position: absolute;
+    left: 69px;
+    top: 27px;
+    z-index: 999;
+    display: flex;
+}
+
+.top_button {
+    background: transparent;
+    z-index: 999;
+    position: absolute;
+    right:56px;
+    top:6990px;
+    cursor:pointer;
+}
+
+#section02 {
+    width: 1920px;
+    height: 7262px;
+}
+
+#section02 .shop_img {
+    position: absolute;
+    width: 1644px;
+    height:2987px;
+    top:1424px;
+    left: 138px;
+    overflow: hidden;
+}
+
+#section02 .shop_img > div:nth-child(1){
+    position: absolute;
+}
+
+#section02 .shop_img > div:nth-child(2) {
+    position: absolute;
+    right:0;
+    top: 648px;
+}
+
+#section02 .shop_img > div:nth-child(3) {
+    position: absolute;
+    left:75px;
+    top: 1147px;
+}
+#section02 .shop_img > div:nth-child(4) {
+    position: absolute;
+    left:0;
+    top: 1933px;
+}
+#section02 .shop_img > div:nth-child(5) {
+    position: absolute;
+    right:0;
+    top: 2049px;
+}
+
+
+.top_nav {
+    position: absolute;
+    left: 568px;
+    top: 34px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    width: 752px;
+    height: 14px;
+}
+.top_nav .exhibition::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 13%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .exhibition:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .apmap::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 8%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .apmap:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .aplap::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 7%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .aplap:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .program::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 11%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .program:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .shop::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 6.5%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .shop:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .info::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 5.5%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .info:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+
+.icon {
+    position: absolute;
+    right: 69px;
+    top: 31px;
+    z-index: 999;
+}
+
+
+#section08 {
+    position: absolute;
+    width: 1920px;
+    height: 293px;
+    top: 7263px;
+}
+#section08 .footer {
+    position: absolute;
+}
+#section08 .logo {
+    position: absolute;
+    top: 52px;
+    left:139px;
+}
+
+#section08 .icon {
+    position: absolute;
+    width:105px;
+    height: 19px;
+    top: 69px;
+    right:136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section08 .button {
+    position: absolute;
+    top: 140px;
+    right:136px;
+    width:57px;
+    height: 10px;
+}
+
+#section08 .button > div:nth-child(1){
+    position: absolute;
+    right:0;
+}
+
+#section08 .button > div:nth-child(2){
+    position: absolute;
+    top: 2px;
+    left:0;
+}
+#section08 .line {
+    position: absolute;
+    top: 163px;
+    right: 179px;
+
+}

@@ -1,0 +1,712 @@
+
+
+.main_logo{
+    position: fixed;
+    left: 69px;
+    top: 27px;
+    z-index: 999;
+    display: flex;
+}
+
+/*.startPoint {*/
+/*    background: transparent;*/
+/*}*/
+
+.top_nav {
+    position: fixed;
+    left: 568px;
+    top: 34px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    width: 752px;
+    height: 14px;
+}
+
+/*.top_nav div {*/
+/*    padding: 0 100px 0 0;*/
+/*}*/
+
+.top_nav .exhibition::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 13%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .exhibition:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .apmap::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 8%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .apmap:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .aplap::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 7%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .aplap:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .program::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 11%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .program:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .shop::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 6.5%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .shop:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+.top_nav .info::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 5.5%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+.top_nav .info:hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+
+.icon {
+    position: fixed;
+    right: 69px;
+    top: 31px;
+    z-index: 999;
+}
+
+#section01{
+    width: 1920px;
+    height: 980px;
+    background-image : url("/img/main01/bg.png");
+    background-size: cover;
+}
+
+#sc01_slider{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#sc01_slider .slick-slide{
+    position: relative;
+}
+
+#section01 .text {
+    position: absolute;
+    left: 209px;
+    top: 248px;
+}
+
+#section01 .arrow {
+    position: absolute;
+    top:247px;
+    left: 296px;
+    height: 19px;
+    width:69px;
+    display: flex;
+}
+
+#section01 .arrow  > div:nth-child(1) {
+left:0;
+    margin-right: 26px;
+
+}
+
+#section01 .arrow  > div:nth-child(2) {
+
+}
+
+#section01 .stick {
+    position: absolute;
+    bottom:69px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#section01 .text02 {
+    position: absolute;
+    bottom:66px;
+    right: 69px;
+}
+
+#section01 .long_arrow {
+    position: absolute;
+    bottom:230px;
+    left: 306px;
+    height: 40px;
+    width:87px;
+}
+
+#section01 .long_arrow  > div:nth-child(1) {
+    position: absolute;
+right: 0;
+}
+
+#section01 .long_arrow  > div:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top:16px;
+}
+
+
+#section02{
+    background: white;
+    width: 1920px;
+    height: 1287px;
+}
+
+#section02 .title {
+    position: absolute;
+    left: 50%;
+    top: 196px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#section02 .img {
+    position: absolute;
+    width: 1646px;
+    height: 595px;
+    top: 378px;
+    display: flex;
+    justify-content: space-between;
+    left: 139px;
+}
+
+#section02 .img > div:nth-child(1) {
+    overflow: hidden;
+}
+#section02 .img > div:nth-child(2) {
+    overflow: hidden;
+}
+
+#section02 .img  > div:nth-child(3) {
+    overflow: hidden;
+}
+#section02 .img  > div:nth-child(4) {
+    overflow: hidden;
+
+}
+
+#section02 .img img {
+    height:100%;
+    width:100%;
+    transition: transform .5s;
+    transform : scale(1);
+    object-fit: cover;
+}
+
+#section02 .img img > div:nth-child(1):hover img {
+    transform : scale(1.2);
+    transition : transform .5s;
+}
+#section02 .img img > div:nth-child(2) {
+    transform : scale(1.2);
+    transition : transform .5s;
+}
+
+#section02 .img img > div:nth-child(3) {
+    transform : scale(1.2);
+    transition : transform .5s;
+}
+#section02 .img img > div:nth-child(4) {
+    transform : scale(1.2);
+    transition : transform .5s;
+
+}
+
+
+#section02 .text {
+    position: absolute;
+    width: 1528px;
+    height: 227px;
+    top: 903px;
+    display: flex;
+    justify-content: space-between;
+    left: 161px;
+}
+
+
+#section02 .shadow {
+    position: absolute;
+    width: 1595px;
+    height: 303px;
+    top: 852px;
+    left: 136px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+#section03{
+    background: white;
+    width:1920px;
+    height: 1179px;
+}
+
+
+#section03 .title {
+    position: absolute;
+    left: 50%;
+    top: 109px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+#section03 .img {
+    position: absolute;
+    left: 139px;
+    top: 280px;
+
+}
+
+#section03 .img .text {
+    position: absolute;
+    width:988px;
+    height: 229px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+#section03 .img .long_arrow {
+    position: absolute;
+    height: 40px;
+    width:168px;
+    top:431px;
+    left:740px;
+}
+
+#section03 .img .long_arrow  > div:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top:14px;
+}
+
+#section03 .img .long_arrow  > div:nth-child(2) {
+    position: absolute;
+   right: 0;
+    top:1px;
+}
+
+#section03 .img .long_arrow  > div:nth-child(3) {
+    position: absolute;
+    right: 16px;
+    top:17px;
+}
+
+
+
+#section04{
+    background: white;
+    height: 980px;
+    position: relative;
+}
+
+#section04 .title {
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#section04 .sc05_slider{
+    width: 1645px;
+    height: 466px;
+    position: absolute;
+    top: 274px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+#section04 .slider_img .slick-slide{
+    position: relative;
+}
+
+#section04 .slider_img{
+    width: 2200px;
+    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#section04 .circle {
+    position: absolute;
+    left: 50%;
+    top: 789px;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#section04 .btn_next {
+    position: absolute;
+    top:498px;
+    left: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#section04 .btn_prev{
+    position: absolute;
+    top:498px;
+    right: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#section05{
+    background: white;
+    height:1121px;
+    width:1920px;
+}
+
+#section05 .title {
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#section05 .img {
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+
+#section05 .text {
+    position: absolute;
+    right: 230px;
+    top: 408px;
+}
+
+#section05 .arrow {
+    height:40px;
+    width:178px;
+    position: absolute;
+    right: 548px;
+    bottom: 288px;
+}
+
+#section05 .arrow > div:nth-child(1) {
+    position: absolute;
+    left:0;
+    top:14px;
+}
+#section05 .arrow > div:nth-child(2) {
+    position: absolute;
+   right:0;
+}
+#section05 .arrow > div:nth-child(3) {
+    position: absolute;
+    top:16px;
+    right:16px;
+}
+
+#section06{
+    background: white;
+    height:1005px;
+    position: relative;
+}
+
+#section06 .title {
+    position: absolute;
+    left: 50%;
+    top: 127px;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#section06 .text {
+    position: absolute;
+    left: 139px;
+    top: 441px;
+
+}
+
+#section06 .sc06_slider{
+    position: absolute;
+    top: 383px;
+    left: 833px;
+    width: 1406px;
+    height: 552px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section06 .sc06_slider .slick-slide{
+    width: 1106px;
+    height: 552px;
+    position: relative;
+}
+
+#section06 .btn_prev{
+    position: absolute;
+    top: 865px;
+    left: 760px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#section06 .btn_next{
+    position: absolute;
+    top: 865px;
+    left: 790px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#section06 .num {
+    position: absolute;
+    top: 872px;
+    left:475px;
+
+}
+#section06 .b_arrow {
+    height:40px;
+    width:178px;
+    position: absolute;
+    left: 139px;
+    top: 736px;
+}
+
+#section06 .b_arrow > div:nth-child(1) {
+    position: absolute;
+    left:0;
+    top:14px;
+}
+#section06 .b_arrow > div:nth-child(2) {
+    position: absolute;
+    right:0;
+}
+#section06 .b_arrow > div:nth-child(3) {
+    position: absolute;
+    top:16px;
+    right:16px;
+}
+
+#section06 .arrow {
+    position: absolute;
+    top: 872px;
+    left:718px;
+    width: 64px;
+    height: 13px;
+}
+
+#section06 .arrow > div:nth-child(1) {
+    position: absolute;
+    left:0;
+}
+#section06 .arrow > div:nth-child(2) {
+    position: absolute;
+    right:0;
+}
+
+#section07{
+    background: white;
+    height:1423px;
+    width:1920px;
+}
+
+#section07 .top_button {
+    background: transparent;
+    z-index: 999;
+    position: absolute;
+    right:56px;
+    bottom:198px;
+    cursor:pointer;
+}
+
+#section07 .section {
+    position: absolute;
+    top: 246px;
+    left:50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    width:1646px;
+}
+
+#section07 .section .img01 {
+    position: absolute;
+    display: inline-block;
+    left:0;
+}
+
+#section07 .section .img01 .text01{
+    position: absolute;
+top:84px;
+    left:70px;
+}
+
+#section07 .section .img02 {
+    position: absolute;
+    right:0;
+}
+#section07 .section .img02 .text02{
+    position: absolute;
+    top:84px;
+    left:70px;
+}
+#section07 .section .img02 .text02 > div:nth-child(2) {
+    position: absolute;
+    top:130px;
+    left:3px;
+}
+
+#section07 .section .img02 .text02 > div:nth-child(2)::after {
+    padding-bottom: 4px;
+    display:block;
+    content: '';
+    border-bottom: solid 1px #fff;
+    transform-origin: left;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 300ms ease-in-out; /*변형 방식*/
+}
+
+#section07 .section .img02 .text02 > div:nth-child(2):hover::after {
+    transform: scaleX(1);/*a 속성에 hover시 after를 기존 크기로 변경*/
+}
+
+
+
+
+
+
+#section07 .section .img03 {
+    position: absolute;
+    right:0;
+    top:363px;
+}
+
+#section07 .section .img03 > div:nth-child(2){
+    position: absolute;
+    bottom:0;
+}
+
+#section08 {
+    width: 1920px;
+    height: 293px;
+}
+#section08 .footer {
+    position: absolute;
+}
+#section08 .logo {
+    position: absolute;
+    top: 52px;
+    left:139px;
+}
+
+#section08 .icon {
+    position: absolute;
+    width:105px;
+    height: 19px;
+    top: 69px;
+    right:136px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section08 .button {
+    position: absolute;
+    top: 140px;
+    right:136px;
+    width:57px;
+    height: 10px;
+}
+
+#section08 .button > div:nth-child(1){
+    position: absolute;
+right:0;
+}
+
+#section08 .button > div:nth-child(2){
+    position: absolute;
+    top: 2px;
+    left:0;
+}
+#section08 .line {
+    position: absolute;
+    top: 163px;
+    right:179px;
+
+}
